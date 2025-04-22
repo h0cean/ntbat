@@ -1,9 +1,9 @@
 /// <reference types="node" />
 
+// copied from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node-telegram-bot-api on 25/04/21
 import { ServerOptions } from "https";
 import { Options } from "request";
 import { Readable, Stream } from "stream";
-
 declare namespace TelegramBot {
   interface TextListener {
     regexp: RegExp;
@@ -316,6 +316,7 @@ declare namespace TelegramBot {
   }
 
   interface CreateInvoiceLinkOptions {
+    TEST: boolean;
     provider_data?: string | undefined;
     photo_url?: string | undefined;
     photo_size?: number | undefined;

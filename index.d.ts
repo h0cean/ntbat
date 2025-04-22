@@ -316,7 +316,7 @@ declare namespace TelegramBot {
   }
 
   interface CreateInvoiceLinkOptions {
-    TEST: boolean;
+    subscription_period?: number;
     provider_data?: string | undefined;
     photo_url?: string | undefined;
     photo_size?: number | undefined;

@@ -3,7 +3,7 @@
   "types": "index.d.ts",
   "private": false,
   "name": "@types/node-telegram-bot-api",
-  "version": "0.6.6",
+  "version": "0.6.7",
   "projects": [
     "https://github.com/yagop/node-telegram-bot-api"
   ],

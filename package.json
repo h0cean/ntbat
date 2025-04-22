@@ -1,0 +1,15 @@
+{
+  "private": false,
+  "name": "@types/node-telegram-bot-api",
+  "version": "0.06",
+  "projects": [
+    "https://github.com/yagop/node-telegram-bot-api"
+  ],
+  "dependencies": {
+    "@types/node": "*",
+    "@types/request": "*"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "0.06"
+  }
+}

@@ -2192,5 +2192,4 @@ declare class TelegramBot extends TelegramBotEventEmitter<TelegramBot.TelegramEv
     result: TelegramBot.InlineQueryResult
   ): Promise<TelegramBot.SentWebAppMessage>;
 }
-
 export = TelegramBot;

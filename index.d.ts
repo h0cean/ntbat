@@ -1344,7 +1344,9 @@ declare namespace TelegramBot {
   }
 
   type CallbackGame = object;
+
   type CopyTextButton = { text: string };
+
   interface GameHighScore {
     position: number;
     user: User;

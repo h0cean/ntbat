@@ -1,6 +1,8 @@
 /// <reference types="node" />
 
-// copied from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node-telegram-bot-api on 25/04/21
+//# copied from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node-telegram-bot-api on 25/04/21
+//# owners && "name": "Alex Muench", "githubUsername": "ammuench" && "name": "Agadar", "githubUsername": "agadar" && "name": "Giorgio Garasto", "githubUsername": "Dabolus" && "name": "XC-Zhang", "githubUsername": "XC-Zhang" && "name": "AdityaThebe", "githubUsername": "adityathebe" && "name": "XieJiSS", "githubUsername": "XieJiSS" && "name": "Toniop", "githubUsername": "toniop99" && "name": "Konstantin24121", "githubUsername": "konstantin24121"
+
 import { ServerOptions } from "https";
 import { Options } from "request";
 import { Readable, Stream } from "stream";

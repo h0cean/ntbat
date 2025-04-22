@@ -1,2 +1,9 @@
 noob.invisible
+
 npm version patch && git push origin master --follow-tags
+
+npm install --save git+https://github.com/h0cean/ntbat.git
+
+r*m -rf node_modules package-lock.json && npm install??
+
+

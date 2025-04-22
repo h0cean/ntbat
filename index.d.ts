@@ -830,6 +830,7 @@ declare namespace TelegramBot {
     switch_inline_query?: string | undefined;
     switch_inline_query_current_chat?: string | undefined;
     callback_game?: CallbackGame | undefined;
+    copy_text?: CopyTextButton;
     pay?: boolean | undefined;
   }
 
@@ -1343,7 +1344,7 @@ declare namespace TelegramBot {
   }
 
   type CallbackGame = object;
-
+  type CopyTextButton = { text: string };
   interface GameHighScore {
     position: number;
     user: User;

@@ -1,7 +1,9 @@
 {
+  "main": "index.d.ts",
+  "types": "index.d.ts",
   "private": false,
   "name": "@types/node-telegram-bot-api",
-  "version": "0.06",
+  "version": "0.6.0",
   "projects": [
     "https://github.com/yagop/node-telegram-bot-api"
   ],

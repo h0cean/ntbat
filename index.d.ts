@@ -452,6 +452,14 @@ declare namespace TelegramBot {
   interface UnpinChatMessageOptions {
     message_id?: number | undefined;
   }
+  interface SendGiftOptions {
+    user_id?: string;
+    chat_id?: string;
+    text?: string;
+    pay_for_upgrade?: boolean;
+    text_parse_mode?: TelegramBot.ParseMode | undefined;
+    text_entities?: MessageEntity[] | undefined;
+  }
 
   /// TELEGRAM TYPES ///
   interface PassportFile {
@@ -2197,5 +2205,10 @@ declare class TelegramBot extends TelegramBotEventEmitter<TelegramBot.TelegramEv
     web_app_query_id: string,
     result: TelegramBot.InlineQueryResult
   ): Promise<TelegramBot.SentWebAppMessage>;
+
+  sendGift(
+    giftId: string,
+    options?: TelegramBot.SendGiftOptions
+  ): Promise<boolean>;
 }
 export = TelegramBot;

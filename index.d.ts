@@ -453,7 +453,7 @@ declare namespace TelegramBot {
     message_id?: number | undefined;
   }
   interface SendGiftOptions {
-    user_id?: string;
+    user_id?: number;
     chat_id?: string;
     text?: string;
     pay_for_upgrade?: boolean;

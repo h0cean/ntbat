@@ -2217,7 +2217,7 @@ declare class TelegramBot extends TelegramBotEventEmitter<TelegramBot.TelegramEv
   }): Promise<boolean>;
 
   setMyShortDescription(form: {
-    description: string;
+    short_description: string;
     language_code: string;
   }): Promise<boolean>;
 }

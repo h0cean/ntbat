@@ -9,3 +9,11 @@ git stash
 git stash drop
 
 
+
+
+  //
+# in ntbat
+npm version patch && git push origin master --follow-tags
+
+# in main project
+npm install github:h0cean/ntbat#master
